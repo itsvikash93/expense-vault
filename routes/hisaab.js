@@ -53,7 +53,7 @@ router.get("/:id", isLoggedIn, async (req, res) => {
     const hisaab = await hisaabModel.findOne({ _id: req.params.id });
     let editHisaab = false;
     let deleteHisaab = false;
-    const baseUrl = "https://khaatabook-w32l.onrender.com";
+    const baseUrl = "https://khaatabook-bz6n.onrender.com";
 
     if (
       hisaab.user.toString() === userId.toString() ||
