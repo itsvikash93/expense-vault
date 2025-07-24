@@ -23,6 +23,7 @@
     "joi": "^17.13.3",
     "method-override": "^3.0.0",
     "mongoose": "^8.5.2",
-    "remixicon": "^4.3.0"
+    "remixicon": "^4.3.0",
+    "serverless-http": "^3.2.0"
   }
 }
